@@ -5,16 +5,13 @@ O objetivo deste projeto é analisar o histórico de pacientes e prever o risco 
 
 ## **Tecnologias Utilizadas**
 - **Linguagem**: Python  
-- **Bibliotecas**: pandas, numpy, scikit-learn, Flask, matplotlib, seaborn  
+- **Bibliotecas**: pandas, numpy, scikit-learn, matplotlib, seaborn  
 
 ## **Fases do Projeto**
 
 ### **1. Definição do Problema**
 - Identificação dos fatores que influenciam o risco de depressão (idade, histórico familiar, sintomas clínicos, etc.)  
 - Coleta de dados históricos de pacientes com diagnóstico de depressão  
-- Formulação do problema como uma tarefa de classificação binária:  
-  - **1**: Paciente com alto risco de depressão  
-  - **0**: Paciente sem risco significativo de depressão  
 
 ### **2. Preparação dos Dados**
 - Tratamento de valores ausentes (Missing Values)  
@@ -30,4 +27,24 @@ O objetivo deste projeto é analisar o histórico de pacientes e prever o risco 
   - **Precisão, Recall e F1-Score**  
   - **Matriz de Confusão**  
   - **Curva ROC-AUC**  
+
+
+
+## **Questões de Pesquisa**
+
+1. **Como a faixa etária e o gênero influenciam os níveis de ansiedade, depressão e estresse?**
+   - Análise da correlação entre faixa etária/gênero e os índices de transtornos emocionais, identificando possíveis padrões em diferentes grupos etários e de gênero.
+
+2. **Qual a relação entre horas de sono e os níveis de ansiedade e depressão?**
+   - Investigar como a quantidade de horas de sono impacta os níveis de ansiedade e depressão, verificando se pessoas com menos horas de sono apresentam maiores índices de distúrbios emocionais.
+
+3. **Como o histórico familiar de doenças mentais afeta os índices de ansiedade e depressão nos indivíduos?**
+   - Avaliar se indivíduos com histórico familiar de doenças mentais têm maior probabilidade de desenvolver ansiedade e depressão.
+
+4. **Terapia e meditação são estratégias eficazes para reduzir os níveis de ansiedade e depressão?**
+   - Analisar a eficácia de terapias tradicionais e métodos alternativos, como meditação, para reduzir os níveis de ansiedade e depressão e verificar se há diferenças significativas entre os dois métodos.
+
+5. **Como o nível de solidão está relacionado ao bem-estar geral e ao impacto na saúde mental dos indivíduos?**
+   - Estudar a correlação entre solidão e saúde mental, verificando o impacto da solidão no bem-estar geral e como ela afeta os níveis de ansiedade e depressão.
+
 
